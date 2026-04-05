@@ -1,6 +1,6 @@
 #!/bin/bash
 
-num=4
+num=1
 
 while [ $num -le 10 ]
 do 
