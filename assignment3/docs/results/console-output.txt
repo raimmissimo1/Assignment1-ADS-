@@ -1,0 +1,21 @@
+=== Sorting and Searching Performance Analysis ===
+Size: 10
+  Selection Sort on random array: 16761 ns
+  Merge Sort on random array:     22349 ns
+  Binary Search on sorted array:   6705 ns (target=30)
+  Selection Sort on sorted array:  7124 ns
+  Merge Sort on sorted array:      12920 ns
+
+Size: 100
+  Selection Sort on random array: 207638 ns
+  Merge Sort on random array:     130534 ns
+  Binary Search on sorted array:   3352 ns (target=550)
+  Selection Sort on sorted array:  201981 ns
+  Merge Sort on sorted array:      115517 ns
+
+Size: 1000
+  Selection Sort on random array: 3297765 ns
+  Merge Sort on random array:     188083 ns
+  Binary Search on sorted array:   4260 ns (target=4992)
+  Selection Sort on sorted array:  1744076 ns
+  Merge Sort on sorted array:      133327 ns
